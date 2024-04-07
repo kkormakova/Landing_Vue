@@ -1,0 +1,48 @@
+@import "./variables.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    padding-left: calc(50% - $widthContent/2);
+    padding-right: calc(50% - $widthContent/2);
+}
+.logo-img {
+    height: 50px;
+    width: 177px;
+    transition: all 0.2s ease;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+.heading {
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 125%;
+    color: $darkText;
+    white-space: pre-line;
+}
+.title {
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 125%;
+    color: $darkText;
+    white-space: pre-line;
+}
+.text {
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+    color: $lightText;
+    white-space: pre-line;
+}
